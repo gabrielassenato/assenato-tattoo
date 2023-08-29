@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: The Tibal Box;
+    src: url(fonte/The_Tribal_Box_demo-font-FFP.ttf) format(truetype);
+}
+
+header {
+    background-color: #8d8d8da8;
+    padding: 14px;
+    font-family: The Tibal Box;
+    font-size: 3em;
+    color: white;
+}
+
+header img {
+    height: 150px;
+    margin-left: -40px;
+}
+
+header .conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header ul li a:hover {
+    color: #db4242;
+}
+
+section {
+    padding: 35px 0;
+}
+
+.conteudo {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+#sobre img {
+    height: 450px;
+    float: right;
+    margin-left: 40px;
+}
+
+.conteudo h1, h2 {    
+    font-family: The Tibal Box;
+    color: #db4242;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+#sobre h1 {
+    margin-left: 150px;
+    font-size: 6.5em;
+}
+
+p, input, textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+#tattoos, #flashs {
+    text-align: center;
+    font-size: 3.8em;
+}
+
+.artigo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#tattoos article img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#flashs article img {
+    display: flex;
+    height: 680px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+#contato .conteudo {
+    display: block;
+}
+
+.encontre-me {
+    display: flex;
+    justify-content: space-between;
+}
+
+.encontre-me h2 {
+    text-align: center;
+    font-size: 4.5em;
+}
+
+.redes-sociais li {
+    display: inline;
+}
+
+.redes-sociais li img {
+    height: 50px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.redes-sociais li img:hover {
+    height: 55px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+}
+
+form input,
+form textarea {
+    display: block;
+    width: 600px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 150px;
+}
+
+form button {
+    background-color: #db4242;
+    color: #ebebeb;
+    border-radius: 30px;
+    font-size: 1.5em;
+    padding: 15px;
+    border: none;
+    width: 500px;
+    cursor: pointer;
+}
+
+#anexo {
+    width: 100px;
+    padding: 8px;
+}
+
+form button:hover {
+    background-color: #992d2d;
+}
+
+#botao-flutuante {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color: #db4242;
+    border-radius: 8px 0px 0px 0px;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    background-color: #8d8d8da8;
+    padding: 15px 0;
+}
